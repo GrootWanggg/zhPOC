@@ -1,0 +1,24 @@
+[{
+  "img": "assets/img/1.jpg",
+  "name": "路飞",
+  "mobile":"13611111111",
+  "nick":"小路"
+},
+  {
+    "img": "assets/img/2.jpg",
+    "name": "索隆",
+    "mobile":"13611111111",
+    "nick":"小索"
+  },
+  {
+    "img": "assets/img/5.jpg",
+    "name": "黑胡子",
+    "mobile":"13611111111",
+    "nick":"小黑"
+  },
+  {
+    "img": "assets/img/3.jpg",
+    "name": "多弗朗明哥",
+    "mobile":"13611111111",
+    "nick":"明哥"
+  }]

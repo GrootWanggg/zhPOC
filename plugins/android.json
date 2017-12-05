@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.synconset.imagepicker": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wx17d81f5679e0a925",
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.energy.dielectricapp"
+    }
+  },
+  "dependent_plugins": {}
+}
