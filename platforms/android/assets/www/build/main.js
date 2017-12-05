@@ -504,6 +504,7 @@ var StudentPage = (function () {
     }
     // 分享
     StudentPage.prototype.shared = function () {
+        // alert(this.navParams.get('id'))
         Wechat.share({
             message: {
                 title: "2018新年赠险",
@@ -851,10 +852,15 @@ var HomePage = (function () {
         if (this.username != '' && this.password != "") {
             this.http.get('http://manulife.nttdatadm.com/pocTest/api/wxtracking/login?username=' + this.username + '&password=' + this.password)
                 .toPromise().then(function (response) {
-                console.log(response.json().data);
-                _this.navCtrl.push('page-student', {
-                    'id': response.json().data
-                });
+                console.log(response.json());
+                if (response.json().status == 200) {
+                    _this.navCtrl.push('page-student', {
+                        'id': response.json().data
+                    });
+                }
+                else {
+                    alert(response.json().message);
+                }
             });
         }
         else {

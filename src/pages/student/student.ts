@@ -30,6 +30,7 @@ export class StudentPage {
 
   // 分享
   shared() {
+    // alert(this.navParams.get('id'))
     Wechat.share({
       message: {
         title: "2018新年赠险",
